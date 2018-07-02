@@ -1,0 +1,51 @@
+
+body {
+  font-family: $text-font;
+  color: $text-color;
+}
+
+h1, h2, h3, h4 {
+  font-family: $headline-font;
+
+}
+
+p {
+
+}
+
+a {
+  color: $link-color;
+}
+
+#header {
+  height: $header-height;
+  background-color: $theme-color;
+
+  #main-menu {
+
+      a {
+        color: $menu-item-color;
+      }
+
+  }
+
+  #logo {
+
+  }
+}
+
+#main {
+  width: $content-width;
+
+  #content {
+  }
+
+  #sidebar {
+  }
+}
+
+#footer {
+  height: $footer-height;
+  background-color: $ternary-color;
+
+}
