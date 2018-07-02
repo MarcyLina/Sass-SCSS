@@ -34,7 +34,7 @@ a {
 }
 
 #header {
-  @include box;
+  @include box(8px, 1px);
   height: $header-height;
   background-color: $theme-color;
 

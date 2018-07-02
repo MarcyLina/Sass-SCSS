@@ -9,14 +9,15 @@
     weight: bold;
   }
 }
-@mixin rounded {
-  border-radius: 6px;
+@mixin rounded ($radius){
+  border-radius: $radius;
 }
 // mixin within a mixin
-@mixin box {
-  @include rounded;
-  border: 1px solid #333;
+@mixin box ($radius, $border){
+  @include rounded(10);
+  border: $border;
 }
+// used ad the base of the file, above the body tag
 @mixin fancy-links {
   a{
     font-style: italic;
